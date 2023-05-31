@@ -1,0 +1,55 @@
+.item
+{
+    font-size: 24px;
+    width: calc(100%-10px);
+    padding-left: 10px;
+    height: 32px;
+    display:flex;
+}
+.item:hover
+{
+    color: white;
+    background-color: gray;
+}
+.item:hover > .icons
+{
+    color: white;
+    background-color: gray;
+}
+.item > .texr
+{
+    width: 160px;
+}
+.item >  .rr
+{
+    width: 160px;
+    height: 70%;
+    margin-left: 0px;
+    margin-top: 2px;
+    border-radius: 5px;
+}
+.item >.texr > input
+{
+    height: 60%;
+    
+}
+.item > .icons 
+{
+    position: relative;
+    width: 60px;
+    height: 100%;
+    left: 60%;
+    color: black;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+}
+.item > .icons > div
+{
+    width: 60px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
