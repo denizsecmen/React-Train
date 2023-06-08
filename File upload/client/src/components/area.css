@@ -1,0 +1,15 @@
+.Area
+{
+    width: 100%;
+    height: 200px;
+    border:0.5px solid gray;
+    border-radius: 5px;
+    position: relative;
+    top:10px;
+    overflow-y: scroll;
+}
+.Area > div >img
+{
+    height: 50px;
+    width: 50px;
+}
